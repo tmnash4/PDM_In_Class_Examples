@@ -53,6 +53,7 @@ function setup() {
 
 function draw() {
   background(220);
+  text("keys a-f are the monophonic synth,  \nkeys q-e are the polyphonic synth, \nkey z is the noise.", 20, 20)
 }
 
 function keyPressed() {
